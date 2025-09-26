@@ -11,10 +11,9 @@
     <a href="./index.html">← Back to menu</a>
     <h2>Nested If: Score Grader</h2>
     <div class="card">
-        <p>Enter score and get rating: 
-            <br>90+ Excellent,80-89 Good, 70-79 Fair, else Failed. </br></p>
+        <p>Enter score and get rating: <br>90+ Excellent,80-89 Good, 70-79 Fair, else Failed. </br></p>
         <div class="row">
-            <input id="scoreInput" type="number" min="0" max="100" placeholder="Enter score (0-100)" />
+            <input id="scoreInput" type="text" inputmode="numeric" pattern="[0-9]*" placeholder="Enter score (0-100)" />
             <button type="button" onclick="checkScore()">Check</button>
         </div>
         <div class="output" id="scoreOutput"></div>

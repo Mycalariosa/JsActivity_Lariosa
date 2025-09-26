@@ -4,6 +4,6 @@ function checkAge() {
         document.getElementById('ageOutput').textContent = 'You are an adult.';
     }
     if (value < 18) {
-        document.getElementById('ageOutput').textContent = 'You are not an adult.';
+        document.getElementById('ageOutput').textContent = 'You are a minor.';
     }
 }
